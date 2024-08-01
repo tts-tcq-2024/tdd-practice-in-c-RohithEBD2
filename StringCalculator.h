@@ -1,7 +1,8 @@
-#ifndef STRING_CALCULATOR_H
-#define STRING_CALCULATOR_H
+#include <string>
 
-int add(const char *numbers);
+using namespace std;
 
-#endif // STRING_CALCULATOR_H
-
+class StringCalculator{
+  public:
+    int add(const std::string& numbers);
+};
